@@ -7,7 +7,7 @@ const option1Pipes = [
   "bottom-funnel",
 ];
 
-const option2Pipes = ["top-center-vertical", "bottom-center-vertical", "bottom-bottom-center-vertical"];
+const option2Pipes = ["top-center-vertical", "bottom-center-vertical"];
 
 const option3Pipes = [
   "top-right-vertical",
@@ -30,7 +30,6 @@ const allPipes = [
   "bottom-right-vertical",
   "bottom-right-horizontal",
   "bottom-center-vertical",
-  "bottom-bottom-center-vertical",
   "bottom-funnel",
 ];
 

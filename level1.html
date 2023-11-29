@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/shapes.css" />
+    <link rel="stylesheet" href="/easyLevels/pipes.css" />
+    <link rel="stylesheet" href="/levels.css" />
+    <script type="text/javascript" src="/easyLevels/pipes.js"></script>
+    <script type="text/javascript" src="/levels.js"></script>
+    <script type="text/javascript" src="/home.js"></script>
+    <title>Switching</title>
+  </head>
+  <body>
+    <div id="window">
+      <h1>Level 1</h1>
+      <button type="back-button" class="back-button" onclick="goToLevels()">Back</button>
+      <div id="game-window" class="game-window">
+        <div id="start-shapes" class="start-shapes">
+          <div id="box1" class="boxes">
+            <div class="square1" id="square1"></div>
+          </div>
+          <div id="box2" class="boxes">
+            <div class="triangle2"></div>
+          </div>
+          <div id="box3" class="boxes">
+            <div class="circle3"></div>
+          </div>
+          <div id="box4" class="boxes">
+            <div class="plus4">
+              <div class="horizontal4"></div>
+              <div class="vertical4"></div>
+            </div>
+          </div>
+        </div>
+        <div class="in-funnel">
+          <div class="in-funnel-top"></div>
+          <div class="in-funnel-body"></div>
+          <div class="in-funnel-bottom"></div>
+        </div>
+        <div id="top-left-horizontal" class="top-left-horizontal"></div>
+        <div id="top-right-horizontal" class="top-right-horizontal"></div>
+        <div id="top-left-vertical" class="top-left-vertical"></div>
+        <div id="top-right-vertical" class="top-right-vertical"></div>
+        <div id="top-center-vertical" class="top-center-vertical"></div>
+        <div id="bottom-left-horizontal" class="bottom-left-horizontal"></div>
+        <div id="bottom-right-horizontal" class="bottom-right-horizontal"></div>
+        <div id="bottom-left-vertical" class="bottom-left-vertical"></div>
+        <div id="bottom-right-vertical" class="bottom-right-vertical"></div>
+        <div id="bottom-center-vertical" class="bottom-center-vertical"></div>
+        <div id="bottom-funnel" class="bottom-funnel"></div>
+        <div id="top-funnel" class="top-funnel"></div>
+        <div class="options">
+          <input
+            type="radio"
+            id="option1"
+            name="option"
+            onchange="changeColor(id)"
+            value = "2341"
+          />
+          <label class="option1" id="option1Label" for="option1">2 3 4 1</label>e
+        </div>
+        <div class="options">
+          <input
+            type="radio"
+            id="option2"
+            name="option"
+            onchange="changeColor(id)"
+            value = "4321"
+          />
+          <label class="option2" id="option2Label" for="option2">4 3 2 1</label>
+        </div>
+        <div class="options">
+          <input
+            type="radio"
+            id="option3"
+            name="option"
+            onchange="changeColor(id)"
+            value = "3241"
+          />
+          <label class="option3" id="option3Label" for="option3">3 2 4 1</label>
+        </div>
+        <div class="out-funnel">
+          <div class="out-funnel-top"></div>
+          <div class="out-funnel-body"></div>
+          <div class="out-funnel-bottom"></div>
+        </div>
+        <div id="end-shapes" class="end-shapes">
+          <div id="box5" class="boxes">
+            <div class="circle5"></div>
+          </div>
+          <div id="box6" class="boxes">
+            <div class="triangle6"></div>
+          </div>
+          <div id="box7" class="boxes">
+            <div class="plus7">
+              <div class="horizontal7"></div>
+              <div class="vertical7"></div>
+            </div>
+          </div>
+          <div id="box8" class="boxes">
+            <div class="square8"></div>
+          </div>
+        </div>
+      </div>
+      <button type="restart" class="restart" onclick="goToLevel(1)">Restart</button>
+      <button type="submit" class="submit" onclick="checkAnswer(1)">Submit</button>
+      <button type="next" class="next" onclick="next(2)">Next</button>
+    </div>
+  </body>
+</html>
