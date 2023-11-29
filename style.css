@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: black;
 }
 
 #game-window {
@@ -37,13 +37,13 @@ h1{
 #box2,
 #box3,
 #box4 {
-  top: 50px;
+  top: 20px;
 }
 #box5,
 #box6,
 #box7,
 #box8 {
-  top: 540px;
+  bottom: 20px;
 }
 #box1,
 #box5 {
@@ -62,13 +62,32 @@ h1{
   left: 410px;
 }
 
+.switch1{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 230px;
+  top: 205px;
+  position: absolute;
+  background-color: #02198b;
+  border-radius: 5px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  z-index: 100;
+}
+
 
 .options {
   float: left;
   height: 90px;
   width: 170px;
   position: relative;
-  top: 290px;
+  top: 310px;
   margin: 10px 20px;
 }
 
@@ -78,6 +97,10 @@ h1{
   line-height: 1.8em;
   font-weight: bold;
   font-size: 32px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
 }
 
 .options label,
