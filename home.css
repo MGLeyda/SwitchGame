@@ -1,0 +1,46 @@
+body{
+  background-color: white;
+  padding: 20px;
+}
+
+.start-window{
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  margin-bottom: auto;
+  font-family: Arial, sans-serif;
+}
+
+button{
+  background-color: #03ac13;
+  width: 200px;
+  height: 200px;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  display: block;
+  margin-left: auto;
+  margin-top: 200px;
+  margin-right: auto;
+}
+
+button:active{
+   background-color: lightgreen;
+}
+
+.start{
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}

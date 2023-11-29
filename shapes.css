@@ -1,0 +1,38 @@
+.square1 ,.square2,.square3,.square4,.square5,.square6,.square7,.square8 {
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.triangle1,.triangle2,.triangle3,.triangle4,.triangle5,.triangle6,.triangle7,.triangle8{
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 60px solid #ffe800;
+  position: absolute;
+}
+
+.circle1,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7,.circle8{
+  height: 60px;
+  width: 60px;
+  background-color: #03ac13;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.horizontal1, .horizontal2,.horizontal3,.horizontal4,.horizontal5,.horizontal6,.horizontal7,.horizontal8 {
+  height: 30px;
+  width: 60px;
+  background-color: #3388ff;
+  position: absolute;
+  margin-top: 15px;
+  left: 20px;
+}
+.vertical1, .vertical2, .vertical3, .vertical4, .vertical5, .vertical6, .vertical7, .vertical8 {
+  height: 60px;
+  width: 30px;
+  background-color: #3388ff;
+}

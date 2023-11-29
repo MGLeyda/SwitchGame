@@ -1,0 +1,107 @@
+body {
+  background-color: white;
+}
+
+#game-window {
+  background-color: white;
+  width: 630px;
+  height: 700px;
+  position: absolute;
+  margin: 10px 50px;
+  font-family: Arial;
+}
+h1{
+  width: 200px;
+  color: green;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 220px;
+  left: 50px;
+  font-weight: bold;
+}
+.boxes {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 40px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+  top: 50px;
+}
+#box5,
+#box6,
+#box7,
+#box8 {
+  top: 540px;
+}
+#box1,
+#box5 {
+  left: 50px;
+}
+#box2,
+#box6 {
+  left: 170px;
+}
+#box3,
+#box7 {
+  left: 290px;
+}
+#box4,
+#box8 {
+  left: 410px;
+}
+
+
+.options {
+  float: left;
+  height: 90px;
+  width: 170px;
+  position: relative;
+  top: 290px;
+  margin: 10px 20px;
+}
+
+.options label {
+  cursor: pointer;
+  z-index: 90;
+  line-height: 1.8em;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.options label,
+.options input {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  background-color: #8fd3fe;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.options input[type="radio"] {
+  z-index: 100;
+  top: 150px;
+}
+
+.options input[type="radio"]:checked + label {
+  background: #02198b;
+  border-radius: 10px;
+}
+
